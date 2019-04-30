@@ -26,31 +26,31 @@
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
 		.logo {max-height: 500px;}
-		.type-break {display: inline;}
+		span .type-break {display: inline;}
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		.logo {max-height: 400px;}
-		.type-break {display: inline;}
+		span .type-break {display: inline;}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		.logo {max-height: 300px;}
-		.type-break {display: inline;}
+		span .type-break {display: inline;}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		.logo {max-height: 200px;}
-		.type-break: {display: block;}
+		span .type-break: {display: block;}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		.logo {max-height: 100px;}
-		.type-break: {display: block;}
+		span .type-break: {display: block;}
 	}
 
 
