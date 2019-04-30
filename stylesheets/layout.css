@@ -38,7 +38,7 @@
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		.logo {max-height: 300px;}
-		.type-break {display: none;}
+		.type-break {display: block;}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
