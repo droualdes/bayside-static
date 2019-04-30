@@ -1,0 +1,80 @@
+/* #David's Custom CSS
+================================================== */
+	.coupon {
+	height: auto;
+	margin: 20px 0 30px 0;
+	text-align: center;
+	border: 12px dashed #9dad8b;
+	font-size: 1em;
+	font-weight: normal;
+	background-color: #eee8cc;
+}
+	.coupon h2 {
+	font-size: 4em;
+	font-weight: 900;
+	font-family: "omnes-pro", Helvetica, Arial, sans-serif;
+	color: #9dad8b;
+	line-height: 110%;
+	padding-top: 15px;
+	text-transform: normal;
+	letter-spacing: -2px;
+	margin: 0 0 .3em 0;
+	}
+	.coupon p {
+	font-size: 1.35em;
+	font-weight: 500;
+	font-family: "omnes-pro", Helvetica, Arial, sans-serif;
+	margin: -10px 40px 20px 40px;
+	}
+	.coupon-expiration {
+	font-size: 1.125em;
+	font-weight: bold;
+	font-family: "omnes-pro", Helvetica, Arial, sans-serif;
+	background-color: #9dad8b;
+	color: white;
+	margin: 0 auto;
+	width: 210px;
+	height: auto;
+	margin-top: -12px;
+	padding: 6px;
+	}
+	.about {
+	font-size: 1.25em;
+	line-height: 1.6em;
+	margin-bottom: 1.6em;
+	}
+
+	.center {
+		text-align: center;
+	}
+	header { text-align: center;}
+
+    /* Mobile first queries */
+
+    /* Larger than mobile */
+    @media (min-width: 400px) {
+        .logo {max-height: 500px;}
+    }
+
+    /* Larger than phablet */
+    @media (min-width: 550px) {
+        .logo {max-height: 500px;}
+    }
+
+    /* Larger than tablet */
+    @media (min-width: 750px) {
+        .logo {max-height: 500px;}
+        .type-break { display: none;}
+    }
+
+    /* Larger than desktop */
+    @media (min-width: 1000px) {
+        .logo {max-height: 500px;}
+        .type-break { display: none;}
+    }
+
+    /* Larger than Desktop HD */
+    @media (min-width: 1200px) {
+        .logo {max-height: 500px;}
+        .type-break { display: none;}
+    }
